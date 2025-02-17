@@ -23,9 +23,9 @@ def fetch_rss_feed():
         print("Failed to fetch RSS feed")
 
 # Telegram Parsing (Requires Telegram API credentials)
-API_ID = "your_api_id"  # Replace with your API ID
-API_HASH = "your_api_hash"  # Replace with your API Hash
-TELEGRAM_CHANNEL = "@https://t.me/thehackernews"  # Replace with target channel username
+API_ID = "22213586"  # Replace with your API ID
+API_HASH = "a953fee7ad428498f58b1e3b07fd55f2"  # Replace with your API Hash
+TELEGRAM_CHANNEL = "https://t.me/thehackernews"  # Replace with target channel username
 
 async def fetch_telegram_messages():
     client = TelegramClient("session_name", API_ID, API_HASH)
